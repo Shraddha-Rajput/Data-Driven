@@ -2,11 +2,12 @@ package driverFactory;
 
 import java.io.File;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.tools.ant.util.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+
 import commonFunctions.FunctionLibrary;
 import config.AppUtil;
 import utilities.ExcelFileUtil;
@@ -52,7 +53,7 @@ public class Driver_Script extends AppUtil  //we wnat pre and post consition so 
 			{
 
 				File scshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); //take sc when TC fail and stor ein scshot
-				FileUtils.copyFile(scshot,new File("./Screenshots/Iteration/"+i+"LoginPage.png"));
+				org.apache.commons.io.FileUtils.copyFile(scshot,new File("./Screenshots/Iteration/"+i+"LoginPage.png"));
 				
 				//if it is false write login sucessin  into Result cell,write pass in Status cell 
 

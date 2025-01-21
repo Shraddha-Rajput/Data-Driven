@@ -32,16 +32,16 @@
       <![CDATA[Username cannot be empty dashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-12T09:33:42Z" name="Default suite" finished-at="2024-05-12T09:34:00Z" duration-ms="18556">
+  <suite started-at="2025-01-21T11:57:49Z" name="Default suite" finished-at="2025-01-21T11:58:04Z" duration-ms="15412">
     <groups>
     </groups>
-    <test started-at="2024-05-12T09:33:42Z" name="Default test" finished-at="2024-05-12T09:34:00Z" duration-ms="18556">
+    <test started-at="2025-01-21T11:57:49Z" name="Default test" finished-at="2025-01-21T11:58:04Z" duration-ms="15412">
       <class name="driverFactory.Driver_Script">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.Driver_Script@2631f68c]" started-at="2024-05-12T15:03:42Z" name="setUp" finished-at="2024-05-12T15:03:47Z" duration-ms="4984" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.Driver_Script@ae3540e]" started-at="2025-01-21T17:27:49Z" name="setUp" finished-at="2025-01-21T17:27:51Z" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="startest()[pri:0, instance:driverFactory.Driver_Script@2631f68c]" started-at="2024-05-12T15:03:47Z" name="startest" finished-at="2024-05-12T15:04:00Z" duration-ms="13222" status="PASS">
+        <test-method signature="startest()[pri:0, instance:driverFactory.Driver_Script@ae3540e]" started-at="2025-01-21T17:27:51Z" name="startest" finished-at="2025-01-21T17:28:04Z" duration-ms="13122" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[No of rows9]]>
@@ -75,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- startest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.Driver_Script@2631f68c]" started-at="2024-05-12T15:04:00Z" name="tearDown" finished-at="2024-05-12T15:04:00Z" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.Driver_Script@ae3540e]" started-at="2025-01-21T17:28:04Z" name="tearDown" finished-at="2025-01-21T17:28:04Z" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
